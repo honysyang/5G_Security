@@ -1,0 +1,14 @@
+header:
+  source_port: 1234
+  destination_port: 4321
+  verification_tag: 2882400001
+  checksum: 305419896
+chunks:
+  - chunk_type: 0
+    chunk_flag: 0
+    chunk_length: 22
+    tsn: 2882400001
+    stream_identifier: 1
+    stream_sequence_number: 1
+    payload_protocol_id: 60
+    data: "Hello,NGAP"

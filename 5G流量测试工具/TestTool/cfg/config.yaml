@@ -1,0 +1,20 @@
+gtpu:
+  dut_addr: "127.0.0.1"  #"10.1.200.14"
+  dut_port: 2152
+  protocol_cfg: "cfg/gtpu.yaml"
+
+pfcp:
+  dut_addr: "127.0.0.1"  #"10.1.200.14"
+  dut_port: 8805         #39942
+  protocol_cfg: "cfg/pfcp.yaml"
+
+sctp:
+  dut_addr: "127.0.0.1"  #"10.1.200.14"
+  dut_port: 3868
+  protocol_cfg: "cfg/sctp.yaml"
+
+ngap:
+  dut_addr: "127.0.0.1"  #"10.1.200.14"
+  dut_port: 3868         #38412
+  protocol_cfg: "cfg/ngap.yaml"
+  

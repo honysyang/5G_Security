@@ -1,0 +1,133 @@
+#GTPUHeader:
+version:          1
+protocol_type:    1
+externsion:       false
+sequence:         true
+npdu_number:      false
+message_type:
+  - value: 1
+    label: Echo Request
+  - value: 2
+    label: Echo Response
+  - value: 3
+    label: Version Not Supported
+  - value: 16
+    label: Create PDP Context Request
+  - value: 17
+    label: Create PDP Context Response
+  - value: 18
+    label: Update PDP Context Request
+  - value: 19
+    label: Update PDP Context Response
+  - value: 20
+    label: Delete PDP Context Request
+  - value: 21
+    label: Delete PDP Context Response
+  - value: 22
+    label: Initiate PDP Context Activation Request
+  - value: 23
+    label: Initiate PDP Context Activation Response
+  - value: 27
+    label: PDU Notification Request
+  - value: 28
+    label: PDU Notification Response
+  - value: 29
+    label: PDU Notification Reject Request
+  - value: 30
+    label: PDU Notification Reject Response
+  - value: 31
+    label: Supported Extension Headers Notification
+  - value: 32
+    label: Send Routeing Information for GPRS Request
+  - value: 33
+    label: Send Routeing Information for GPRS Response
+  - value: 34
+    label: Failure Report Request
+  - value: 35
+    label: Failure Report Response
+  - value: 36
+    label: Note MS GPRS Present Request
+  - value: 37
+    label: Note MS GPRS Present Response
+  - value: 48
+    label: Identification Request
+  - value: 49
+    label: Identification Response
+  - value: 50
+    label: SGSN Context Request
+  - value: 51
+    label: SGSN Context Response
+  - value: 52
+    label: SGSN Context Acknowledge
+  - value: 53
+    label: Forward Relocation Request
+  - value: 54
+    label: Forward Relocation Response
+  - value: 55
+    label: Forward Relocation Complete
+  - value: 56
+    label: Relocation Cancel Request
+  - value: 57
+    label: Relocation Cancel Response
+  - value: 58
+    label: Forward SRNS Context
+  - value: 59
+    label: Forward Relocation Complete Acknowledge
+  - value: 60
+    label: Forward SRNS Context Acknowledge
+  - value: 61
+    label: UE Registration Query Request
+  - value: 62
+    label: UE Registration Query Response
+  - value: 70
+    label: RAN Information Relay
+  - value: 96
+    label: MBMS Notification Request
+  - value: 97
+    label: MBMS Notification Response
+  - value: 98
+    label: MBMS Notification Reject Request
+  - value: 99
+    label: MBMS Notification Reject Response
+  - value: 100
+    label: Create MBMS Context Request
+  - value: 101
+    label: Create MBMS Context Response
+  - value: 102
+    label: Update MBMS Context Request
+  - value: 103
+    label: Update MBMS Context Response
+  - value: 104
+    label: Delete MBMS Context Request
+  - value: 105
+    label: Delete MBMS Context Response
+  - value: 112
+    label: MBMS Registration Request
+  - value: 113
+    label: MBMS Registration Response
+  - value: 114
+    label: MBMS De-Registration Request
+  - value: 115
+    label: MBMS De-Registration Response
+  - value: 116
+    label: MBMS Session Start Request
+  - value: 117
+    label: MBMS Session Start Response
+  - value: 118
+    label: MBMS Session Stop Request
+  - value: 119
+    label: MBMS Session Stop Response
+  - value: 120
+    label: MBMS Session Update Request
+  - value: 121
+    label: MBMS Session Update Response
+  - value: 128
+    label: MS Info Change Notification Request
+  - value: 129
+    label: MS Info Change Notification Response
+length:           8
+teid:             123456
+sequence_number:  1
+npdu_number_val:  0
+next_ext_header:  0
+payload:          "\x48\x65\x6c\x6c\x6f"

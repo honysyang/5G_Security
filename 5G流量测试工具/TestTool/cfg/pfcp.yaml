@@ -1,0 +1,74 @@
+header:
+  version: 1
+  spare1: 0
+  fo: true
+  mp: false
+  s: true
+  message_type:
+    # PFCP Node related messages
+    - value: 1
+      label: PFCP Heartbeat Request
+    - value: 2
+      label: PFCP Heartbeat Response
+    - value: 3
+      label: PFCP PFD Management Request
+    - value: 4
+      label: PFCP PFD Management Response
+    - value: 5
+      label: PFCP Association Setup Request
+    - value: 6
+      label: PFCP Association Setup Response
+    - value: 7
+      label: PFCP Association Update Request
+    - value: 8
+      label: PFCP Association Update Response
+    - value: 9
+      label: PFCP Association Release Request
+    - value: 10
+      label: PFCP Association Release Response
+    - value: 11
+      label: PFCP Version Not Supported Response
+    - value: 12
+      label: PFCP Node Report Request
+    - value: 13
+      label: PFCP Node Report Response
+    - value: 14
+      label: PFCP Session Set Deletion Request
+    - value: 15
+      label: PFCP Session Set Deletion Response
+    - value: 16
+      label: PFCP Session Set Modification Request
+    - value: 17
+      label: PFCP Session Set Modification Response
+    # PFCP Session related messages
+    - value: 50
+      label: PFCP Session Establishment Request
+    - value: 51
+      label: PFCP Session Establishment Response
+    - value: 52
+      label: PFCP Session Modification Request
+    - value: 53
+      label: PFCP Session Modification Response
+    - value: 54
+      label: PFCP Session Deletion Request
+    - value: 55
+      label: PFCP Session Deletion Response
+    - value: 56
+      label: PFCP Session Report Request
+    - value: 57
+      label: PFCP Session Report Response
+  message_length: 128
+  seid: 1234567890123456789
+  sequence_number: 123456
+  message_priority: 5
+  spare2: 0
+# ies:
+# - type: 1
+#   ie_length: 4
+#   payload: !!binary |
+#     AQIDBA==
+# - type: 32768
+#   ie_length: 6
+#   payload: !!binary |
+#     AQIDBA==
+# enterprise_id: 9999

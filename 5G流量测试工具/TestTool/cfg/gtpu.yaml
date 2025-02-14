@@ -1,0 +1,28 @@
+#GTPUHeader:
+version:          1
+protocol_type:    1
+externsion:       false
+sequence:         true
+npdu_number:      false
+message_type:
+  - value: 1
+    label: Echo Request
+  - value: 2
+    label: Echo Response
+  - value: 26
+    label: Error Indication
+  - value: 31
+    label: Supported Extension Headers Notification
+  - value: 253
+    label: Tunnel Status
+  - value: 254
+    label: End Marker
+  - value: 255
+    label: G-PDU
+length:           8
+teid:             123456
+sequence_number:  1
+npdu_number_val:  0
+next_ext_header:  0
+payload:          "\x48\x65\x6c\x6c\x6f"
+#"48656c6c6f"
